@@ -1,0 +1,19 @@
+{
+  "name": "week2-project2",
+  "version": "1.0.0",
+  "description": "Use the Week 2 - Lecture #2 material to assist you in completing this assignment.",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/galvanizejs/week2-project2.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/galvanizejs/week2-project2/issues"
+  },
+  "homepage": "https://github.com/galvanizejs/week2-project2#readme"
+}
