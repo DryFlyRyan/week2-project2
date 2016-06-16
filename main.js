@@ -30,17 +30,34 @@ ADVANCED TRACK: 16-20
 
 // 1. Output each item in the following Array to your console:
 var livingRoom = ['couch', 'lamp', 'rug', 'shelf'];
-console.log(livingRoom);
+
+// for (var i = 0; i < livingRoom.length; i++) {
+//   console.log(livingRoom[i]);
+// }
 
 // 2. Using a loop, log numbers 22-33 in the console.
 
+// for (var i = 22; i <=33; i++) {
+//   console.log(i);
+// }
+
 // 3. Using a similar loop, log numbers 75 to 100, only in increments of five.
 
+// for (var i = 75; i <= 100; i+=5) {
+//   console.log(i);
+// }
+
 // 4. Write a while loop that logs "This is how a professional loops." to the console 5 times.
+
+// for (var i = 0; i <= 4; i++) {
+//   console.log("This is how a professional loops.");
+// }
 
 // 5. Separately, use both a for loop and while loop to do the same thing.
 //     Print out the sentence "At home, I have _____ cats."
 //     The numbers should range from 10 to 110, in increments of 25.
+
+
 
 // 6. Given the following Array, console log 'Even' if the number is even, 'Even and greater than 10' if the
 //    number is even and greater than 10, and 'Odd' if the number is odd.
@@ -64,6 +81,20 @@ var numArray = [13, 15, 17, 23, 25, 27, 33, 35, 37, 43, 45, 47, 53, 55, 57, 63, 
 // If the number is divisible by 3, print "Fizz" instead of the number.
 // If the number is divisible by 5, print "Buzz" instead of the number.
 // If the number is divisible by both 3 and 5, print "FizzBuzz" instead of the number.
+
+for (var i = 0; i <=100; i++) {
+  if ((i%3 === 0) && (i%5 === 0)) {
+    console.log("FizzBuzz");
+  } else if ((i%3 === 0) || (i%5 === 0)) {
+    if (i%5 !== 0) {
+      console.log("Fizz");
+    } else {
+      console.log("Buzz");
+    }
+  } else {
+    console.log(i);
+  }
+}
 
 // RO SHAM BO!
 // We're going to create a paper, rock, scissors game that prompts you for your choice and allows the computer to
