@@ -30,6 +30,7 @@ ADVANCED TRACK: 16-20
 
 // 1. Output each item in the following Array to your console:
 var livingRoom = ['couch', 'lamp', 'rug', 'shelf'];
+console.log(livingRoom);
 
 // 2. Using a loop, log numbers 22-33 in the console.
 
